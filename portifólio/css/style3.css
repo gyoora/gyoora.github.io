@@ -179,3 +179,7 @@ footer img {
     display: block;
 }
 
+caption {
+    padding: 5px;
+    text-transform: uppercase;
+}
