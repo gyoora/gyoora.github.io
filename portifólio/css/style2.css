@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{margin: 0; padding: 0;}
+
+header, footer {background: rgb(130, 199, 224);}
+
+header h1 {
+    margin: 2%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(239, 242, 245);
+    font-size: 40px;
+}
+header a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: rgb(239, 242, 245);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a:hover {color: #2994bb; cursor: pointer; font-size: 21px;}
+
+header img {
+    max-width: 145px;
+    max-height: 98px;
+    padding: 5px;
+    margin: 10px;
+}
+nav {margin-left: 70px;}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+ img {
+    max-width: 420px;
+    max-height: 230px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+ }
+
+ .periquito_img {
+    max-width: 130px;
+    max-height: 100px;
+    margin: auto;
+    display: block;
+    animation: piriquito_rodador 2s infinite;
+}
+
+
+@keyframes piriquito_rodador {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+ h2, h3 {  
+    font-size: 35px;
+    text-align: center;
+    margin-top: 8px;
+    border: #2994bb;
+    background: #379ec4;
+    color: aliceblue;
+    font-family: 'Outfit', sans-serif;
+    padding: 8px;
+    border-radius: 20px;
+    margin: 0px 120px 0px 120px;
+}
+
+
+ .container {
+    background:#eff2f5; 
+    margin: 1%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+.projeto {
+    text-align: center;
+    padding: 2%;   
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.legend {
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+    display: inline-flex;
+    gap: 365px;
+    margin-left: 10%;
+}
+
+.game {
+    text-align: center;
+    padding: 2%;   
+    display: flex;
+    justify-content: center;
+}
+
+.game_legend {
+    font-size: 17px;
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+}
+
+.input_email {
+    border: solid #3890af 0.4px;
+    border-width: 10px;
+    border-radius: 20px;
+    background-color: #3890af;
+    color: aliceblue;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    margin: 0 350px 20px 350px;
+    text-align: center;
+}
+
+input {
+    padding: 8px;
+    border-radius: 15px;
+    border: none;
+}
+
+.focus:focus {color: #1e4452;}
+
+footer img {
+    max-width: 145px;
+    max-height: 98px;
+    padding: 12px;
+    margin: auto;
+    display: block;
+}

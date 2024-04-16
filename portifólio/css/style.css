@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+*{margin: 0; padding: 0;}
+
+header, footer {background: rgb(130, 199, 224);}
+
+header h1 {
+    margin: 2%;
+    font-family: 'Outfit', sans-serif;
+    color: rgb(239, 242, 245);
+    font-size: 40px;
+}
+header a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    color: rgb(239, 242, 245);
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a:hover {color: #2994bb; cursor: pointer; font-size: 21px;}
+
+header img {
+    max-width: 145px;
+    max-height: 98px;
+    padding: 5px;
+    margin: 10px;
+}
+nav {margin-left: 70px;}
+
+#menu {
+    display: flex;
+    align-items: center;
+}
+.section_style {margin: 35px;}
+
+.section_style p {
+    font-size: 20px;
+}
+
+.font1 {font-family: 'Outfit', sans-serif;}
+
+.font2 {font-family: 'Karla', sans-serif;}
+
+h2, h3, h4 {font-size: 25px;}
+
+.section_style ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 6px;
+    font-size: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: #287996;
+}
+
+.container_games {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.games {
+    max-width: 200px;
+    max-height: 150px;
+    padding: 2%;
+    border-bottom: solid black 0.4px; padding: 12px;
+}
+
+.aling_games {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-top: 1%;
+}
+
+figure {
+    text-align: center;
+}
+
+.ajuste {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+.ajuste:hover {
+    background: #6cadc5;
+    border-radius: 100%;
+    max-width: 40px;
+    max-height: 40px;
+    box-shadow: 3px 3px 3px rgb(118, 126, 128);
+}
+
+h4 {
+    border-top: solid black 0.4px; 
+    padding: 12px; 
+    font-size: 18px; 
+    padding: 3px;
+}
+
+.img_code {max-width: 300px; float: left; padding: 10px;}
+
+.conteudo {
+    float: left;
+    padding: 10px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    max-width: 145px;
+    max-height: 98px;
+    padding: 12px;
+    margin: auto;
+    display: block;
+}
